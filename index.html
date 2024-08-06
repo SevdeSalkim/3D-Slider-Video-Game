@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Game</title>
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #D2D2D2;
+            background-image: url(images/back.png);
+            
+        }
+        
+        body::before{
+            position: absolute;
+            width: min(1000px, 90vw);
+            top: 10%;
+            left: 50%;
+            height: 90%;
+            transform: translateX(-50%);
+            content: '';
+            background-image: url(images/back.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: top center;
+            pointer-events: none;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="banner">
+        <div class="slider" style="--quantity: 10">
+            <div class="item" style="--position: 1"><img src="images/Death-Stranding.jpg" alt=""></div>
+            <div class="item" style="--position: 2"><img src="images/star-wars-outlaws.jpeg" alt=""></div>
+            <div class="item" style="--position: 3"><img src="images/Dragona-Dogma-2.png " alt=""></div>
+            <div class="item" style="--position: 4"><img src="images/Helldivers2.png" alt=""></div>
+            <div class="item" style="--position: 5"><img src="images/Witcher_3_cover_art.jpg" alt=""></div>
+            <div class="item" style="--position: 6"><img src="images/Hunt.jpg" alt=""></div>
+            <div class="item" style="--position: 7"><img src="images/cyperpunk.jpg" alt=""></div>
+            <div class="item" style="--position: 8"><img src="images/resident-evil.jpg" alt=""></div>
+            <div class="item" style="--position: 9"><img src="images/Ghost_of_Tsushima.jpg" alt=""></div>
+            <div class="item" style="--position: 10"><img src="images/The_Last_of_Us.png" alt=""></div>
+        </div>
+        <div class="content">
+            <h1>
+                GAME  
+            </h1>
+            <div class="author">
+                <h2>SEVDE SALKIM</h2>
+                <p><b>Software Developer</b></p>
+                
+            </div>
+            <div class="model"></div>
+        </div>
+    </div>
+    
+</body>
+</html>
